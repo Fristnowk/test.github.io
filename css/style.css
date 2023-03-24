@@ -420,7 +420,7 @@
 
 /*** Footer ***/
 .footer {
-  color: #a7a8b4;
+  color: #ffffff;
 }
 
 .footer .btn.btn-link {
@@ -428,19 +428,14 @@
   margin-bottom: 5px;
   padding: 0;
   text-align: left;
-  color: #a7a8b4;
+  font-size: 1.2em;
   font-weight: normal;
-  text-transform: capitalize;
-  transition: 0.3s;
-}
-
-.footer .btn.btn-link::before {
-  position: relative;
-  content: '\f105';
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  color: #a7a8b4;
-  margin-right: 10px;
+  font-stretch: normal;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  color: #ffffff;
+  font-family: 'FZLTZHK.TTF';
+  opacity: 0.9;
 }
 
 .footer .btn.btn-link:hover {
@@ -450,8 +445,8 @@
 }
 
 .footer .btn.btn-square {
-  color: #a7a8b4;
-  border: 1px solid#A7A8B4;
+  color: #ffffff;
+  border: 1px solid#ffffff;
 }
 
 .footer .btn.btn-square:hover {
@@ -461,16 +456,13 @@
 
 .footer .copyright {
   padding: 25px 0;
-  font-size: 15px;
-  border-top: 1px solid rgba(256, 256, 256, 0.1);
+  margin-top: 3.75%;
+  font-size: 0.9375rem;
+  border-top: 1px solid #ebadb6;
 }
 
 .footer .copyright a {
   color: var(--secondary);
 }
 
-.footer .copyright a:hover {
-  color: #ffffff;
-}
 /*! adjust this value based on the height of your header component */
-
